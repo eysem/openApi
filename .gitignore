@@ -1,40 +1,31 @@
-
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# Operating System Files 
-*.DS_Store 
-Thumbs.db 
-
-# Build Artifacts 
-.gradle/
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 .mvn/
-mvn.cmd
 mvnw
-build/
-target/
-bin/
-dependency-reduced-pom.xml 
-
-# Eclipse Project Files 
+*.cmd
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-.settings/ 
+.settings
+.springBeans
+.sts4-cache
 
-# IntelliJ IDEA Files 
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
-*.ipr 
-*.iws 
-*.idea 
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
